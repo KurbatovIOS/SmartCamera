@@ -13,6 +13,7 @@
 		B85501682981BE6F0039EC30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85501662981BE6F0039EC30 /* Main.storyboard */; };
 		B855016A2981BE6F0039EC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85501692981BE6F0039EC30 /* Assets.xcassets */; };
 		B855016D2981BE6F0039EC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B855016B2981BE6F0039EC30 /* LaunchScreen.storyboard */; };
+		B85501752981BFA10039EC30 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B85501742981BFA10039EC30 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B85501692981BE6F0039EC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B855016C2981BE6F0039EC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B855016E2981BE6F0039EC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85501742981BFA10039EC30 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B85501622981BE6F0039EC30 /* SceneDelegate.swift */,
 				B85501642981BE6F0039EC30 /* ViewController.swift */,
 				B85501662981BE6F0039EC30 /* Main.storyboard */,
+				B85501742981BFA10039EC30 /* Resnet50.mlmodel */,
 				B85501692981BE6F0039EC30 /* Assets.xcassets */,
 				B855016B2981BE6F0039EC30 /* LaunchScreen.storyboard */,
 				B855016E2981BE6F0039EC30 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				B85501652981BE6F0039EC30 /* ViewController.swift in Sources */,
 				B85501612981BE6F0039EC30 /* AppDelegate.swift in Sources */,
+				B85501752981BFA10039EC30 /* Resnet50.mlmodel in Sources */,
 				B85501632981BE6F0039EC30 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
